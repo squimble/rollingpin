@@ -9,3 +9,16 @@
 // @homepageURL  https://github.com/squimble/rollingpin
 // @supportURL   https://github.com/squimble/rollingpin/issues
 // ==/UserScript==
+
+// Run
+ (function() {
+    'use strict';
+
+let cps=10000;
+   
+    setInterval(function() {
+        Game.ClickCookie();
+    }, cps);
+
+})();
+
