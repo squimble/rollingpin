@@ -15,10 +15,11 @@
     'use strict';
 
 let cps=10000;
+let bps=1000;
    
     setInterval(function() {
         Game.ClickCookie();
     }, cps);
-
+    
 })();
 
